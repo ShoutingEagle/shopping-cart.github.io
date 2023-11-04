@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(0, 109, 128);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.navbar-right{
+  display: flex;
+  gap: 50px;
+}
+
+.shopping-cart-button, .home-button, .cart-page-button{
+  cursor: pointer;
+}
+
+
+
+/* product-details */
+
+.product-details{
+  max-width: 1200px;
+}
+
+
+/* product-listings */
+
+.product-listing{
+  max-width: 1200px;
+  background-color: aquamarine;
+  height: 100vh;
+  margin-inline: auto;
+  padding-top: 50px;
+}
